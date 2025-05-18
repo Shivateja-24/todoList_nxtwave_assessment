@@ -1,0 +1,70 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+}
+.app-head {
+  font-weight: bold;
+}
+
+.add-task-card {
+  background-color: white;
+  padding: 18px;
+  width: 40%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.status-and-priority-container {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: space-around;
+}
+.status-dropdown-container {
+  display: flex;
+  flex-direction: column;
+}
+.priority-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box,
+select,
+input[type="date"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.task-card {
+  border-left: 5px solid #007bff;
+}
+
+.badge-danger {
+  background-color: #dc3545;
+  margin-right: 10px;
+}
+
+.badge-warning {
+  background-color: #ffc107;
+  margin-right: 10px;
+}
+
+.badge-success {
+  background-color: #28a745;
+  margin-right: 10px;
+}
+.task-display-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.task-card {
+  margin: 10px;
+}
